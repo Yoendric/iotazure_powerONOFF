@@ -540,7 +540,7 @@ def main():
   time_last_update = 0
   time_tick_send_message = 60 * 59
   time_sleep_across_measure = 0.9
-  url='https://github.com/Yoendric/checkinwattHandleInterruptio'   #Github repository project
+  url='https://github.com/Yoendric/iotazure_powerONOFF'   #Github repository project
   o = OTAUpdater(url)
   led = Pin(14, Pin.OUT)
   led.value(1)
