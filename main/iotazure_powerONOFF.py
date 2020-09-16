@@ -605,7 +605,3 @@ def main():
             iot_hub_mqttsend(device_id, hostname,username,password,msg_txt_formatted)
       else:
         sleep(1)
-
-main()
-
-
