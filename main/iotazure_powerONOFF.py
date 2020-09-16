@@ -589,7 +589,7 @@ def main():
               print("NO SE PUEDE CONECTAR PARA VER SI HAY ACTUALIZACION")
           sleep(time_sleep_across_measure)
           wh = ""
-          MSG_TXT = '{{"ID": "010008","status": "{f0}","consumo":"{wh}"}}'
+          MSG_TXT = '{{"ID": "010008","status": "{f0}","consumo":"{wh}","numero_act":"2"}}'
           seg = 1
           while (seg <= time_tick_send_message) and (f1 == f0) and (not switch_ap):
             led.value(seg%2)
